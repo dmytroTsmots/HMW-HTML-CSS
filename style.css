@@ -38,18 +38,19 @@ section.banner-cnt {
 .banner-text {
 	color: #fff;
 }
-div.banner-btn a.banner-text{
+button.banner-button {
 	background-color: #08b6e6;
-	text-decoration: none;
-	padding: 10px 20px;
-	font-size: 14px;
 	border-radius: 3px;
+	color: #fff;
+	font-size: 14px;
+	padding: 8px 20px;
+	cursor: pointer;
+	border-style: none;
 }
-div.banner-btn a.banner-text:hover {
-    color: #fff;
-    font-size: 15px;
+button.banner-button:hover {
+	font-size: 15px;
 }
-div.banner-btn a.banner-text:active {
+button.banner-button:active {
     border: 1px white solid;
 }
 
