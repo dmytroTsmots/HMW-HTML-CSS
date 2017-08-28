@@ -6,6 +6,55 @@ body{
 	font-size: 14px;
 }
 
+
+/*SECTION 1*/
+header {
+	background-color: #fff;
+	font-size: 16px;
+
+}
+.nav .nav-link {
+	color: #7e8289;
+}
+.nav .nav-link:hover {
+	color: #08b6e6;
+}
+
+
+/*SECTION 2*/
+section.banner-cnt {
+	width: 100%;
+	height: 450px;
+	background-image: url("img/picbg.png");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	display: flex;
+    align-items: center;
+}
+.banner-cnt .banner-text-cnt {
+	text-align: center;
+	margin: auto;
+}
+.banner-text {
+	color: #fff;
+}
+div.banner-btn a.banner-text{
+	background-color: #08b6e6;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 14px;
+	border-radius: 3px;
+}
+div.banner-btn a.banner-text:hover {
+    color: #fff;
+    font-size: 15px;
+}
+div.banner-btn a.banner-text:active {
+    border: 1px white solid;
+}
+
+
+
 .title-sect{
 	margin-bottom: 50px;
 }
