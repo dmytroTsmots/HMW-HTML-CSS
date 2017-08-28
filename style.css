@@ -1,0 +1,63 @@
+/*colores/*
+dark - #191919
+blue - #08b6e6*/
+
+body{
+	font-size: 14px;
+}
+
+.title-sect{
+	margin-bottom: 50px;
+}
+.blue-text{
+	color: #08b6e6;
+}
+a{
+	color: #08b6e6;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+/*Section-4*/
+.sect-4{
+	background-color: #08b6e6;
+	padding: 55px 0;
+}
+
+
+/*Section-5*/
+.sect-5{
+	background-color: #fff;
+	padding: 50px 0;
+}
+.sect-5 h6{
+	font-size: 19px;
+}
+
+.sect-5 .blue-text{
+	text-transform: uppercase;
+}
+.wrap-item-sect-5{
+	margin-bottom: 30px;
+}
+
+
+/*Section-6*/
+.sect-6{
+	background-color: #191919;
+	padding: 55px 0;
+	color: #bfbfbf;
+}
+.sect-6 .title-sect{
+	color: #fff;
+}
+.sect-6 h6{
+	margin-top: 30px;
+	font-size: 19px;
+}
+.wrap-item-sect-6{
+	margin-bottom: 30px;
+}
