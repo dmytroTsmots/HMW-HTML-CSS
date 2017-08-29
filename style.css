@@ -4,8 +4,8 @@ blue - #08b6e6*/
 
 body{
 	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
 }
-
 
 /*SECTION 1*/
 header {
@@ -145,4 +145,90 @@ div.subscribe-buttons-logos {
 }
 .wrap-item-sect-6{
 	margin-bottom: 30px;
+}
+
+/*SECTION 9*/ 
+
+.sect-9 {
+	background-color: #ccc;
+}
+.consume-header {
+	padding-top: 20px;
+	margin: 0;
+	line-height: 1.5;
+	font-size: 3rem;
+}
+.consume-header span {
+	text-transform: uppercase;
+	color: #08b6e6;
+}
+.consume-cnt {
+	padding: 30px 0;
+}
+.consume-blab, .consume-audio, .consume-video {
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+}
+.consume-cnt1 {
+	display: inline-block;
+	margin-right: 10px;
+}
+.consume-blab-cnt2, .consume-audio-cnt2, .consume-video-cnt2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.consume-blab-cnt2 a, .consume-audio-link, .consume-video-link {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.consume-blab-icon {
+	margin-top: 10px;
+	width: 40px;
+}
+.consume-audio-cnt2, .consume-audio-link span, 
+.consume-video-link span, .consume-video-cnt2 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: black;
+}
+.consume-audio-icon, .consume-video-icon {
+	margin-top: 10px;
+	width: 100px;
+	height: 38px;
+}
+/*SECTION 10*/
+
+.sect-10 {
+	background-color: #0d0d0d;
+	color: #fff;
+	padding: 5% 0;
+}
+.footer-cnt {
+	margin: 0 auto;
+}
+.footer-logo {
+	margin-bottom: 30px;
+}
+.footer-logo-cnt {
+	font-size: 15px;
+}
+.footer-btn {
+	margin: auto;
+}
+.footer-btn-header {
+	padding: 30px 0;
+	font-weight: bold;
+}
+
+/*SECTION 11*/
+
+.sect-11 {
+	background-color: #333;
+	color: #fff;
+}
+.legalese-cnt {
+	font-size: 1.1rem;
+	padding: 15px 0px;
 }
