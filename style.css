@@ -70,11 +70,46 @@ a:hover{
 	text-decoration: none;
 }
 
+/*SECTION 3*/
+/*div.logos-text-cnt {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: center;
+}*/
+.logos-text-cnt p {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	font-weight: bold;
+}
+.logos-item {
+	margin: 10px;
+}
 
 /*Section-4*/
-.sect-4{
+.subscribe-buttons{
 	background-color: #08b6e6;
-	padding: 55px 0;
+	padding: 30px 0 45px;
+	color: #fff;
+}
+.subscribe-buttons-ctn, .subscribe-buttons-text-ctn {
+	margin: 0 20px;
+}
+.subscribe-buttons-ctn h4 {
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+div.subscribe-buttons-logos {
+	margin: 0;
+}
+.subscribe-buttons-logos div {
+	padding-right:10px;
+	padding-left: 0;
+}
+.subscribe-buttons-text-ctn ul {
+	padding-left: 15px;
+	font-size: 16px;
 }
 
 
