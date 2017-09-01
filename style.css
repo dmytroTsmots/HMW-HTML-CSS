@@ -70,13 +70,7 @@ a:hover{
 	text-decoration: none;
 }
 
-/*SECTION 3*/
-/*div.logos-text-cnt {
-	display: flex;
-	align-items: center;
-	height: 100%;
-	justify-content: center;
-}*/
+
 .logos-text-cnt p {
 	text-transform: uppercase;
 	text-align: center;
@@ -144,6 +138,18 @@ div.subscribe-buttons-logos {
 	font-size: 19px;
 }
 .wrap-item-sect-6{
+	margin-bottom: 30px;
+}
+
+/*Section 7*/
+.popularepisodes {
+	color: #191919;
+	padding: 55px 0;
+}
+a.episode-link {
+	color: #191919;
+}
+.episode-cnt {
 	margin-bottom: 30px;
 }
 
