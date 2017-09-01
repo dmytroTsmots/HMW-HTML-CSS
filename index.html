@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Group HMW HTML CSS</title>
@@ -9,31 +9,35 @@
 <body>
 <!-- SECTION 1 NAVIGATION-->    
     <header>
-      <nav class="nav justify-content-center align-items-center">
-          <a class="nav-link" href="#"><img src="img/logo.png" alt="nav-logo"></a>
-          <a class="nav-link" href="#"></a>
-            <a class="nav-link" href="#">Home</a>
-            <a class="nav-link" href="#">We Believe</a>
-            <a class="nav-link" href="#">Show</a>
-            <a class="nav-link" href="#">PBI Method</a>
-            <a class="nav-link" href="#">Affiliates</a>
-            <a class="nav-link" href="#">Sponsors</a>
-            <a class="nav-link" href="#">Contacts</a>
-            <a class="nav-link" href="#">Members</a>
-            <a class="nav-link" href="#">&#x2315;</a>
-        </nav>
+      <div class="container">
+        <nav class="nav justify-content-center align-items-center row">
+            <a class="nav-link" href="#"><img src="img/logo.png" alt="nav-logo"></a>
+            <a class="nav-link" href="#"></a>
+              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#">We Believe</a>
+              <a class="nav-link" href="#">Show</a>
+              <a class="nav-link" href="#">PBI Method</a>
+              <a class="nav-link" href="#">Affiliates</a>
+              <a class="nav-link" href="#">Sponsors</a>
+              <a class="nav-link" href="#">Contacts</a>
+              <a class="nav-link" href="#">Members</a>
+              <a class="nav-link" href="#">&#x2315;</a>
+          </nav>
+      </div>
     </header>
 
 
 <!--  SECTION 2 - BANNER-->
 
     <section class="banner-cnt">
-      <div class="banner-text-cnt">
-          <h1 class="banner-text">Get Your Head Start Here!</h1>
-          <p class="banner-text">Download Your 2016 NEW MEDIA INFLUENCER<br>Glossary of Terms at &#36;0</p>
-          <p class="banner-text">(It will sell for &#36;47 soon!)</p>
-          <button class="banner-button">Get Free Instant Access Here</button>        
+      <div class="container">
+        <div class="banner-text-cnt">
+            <h1 class="banner-text">Get Your Head Start Here!</h1>
+            <p class="banner-text">Download Your 2016 NEW MEDIA INFLUENCER<br>Glossary of Terms at &#36;0</p>
+            <p class="banner-text">(It will sell for &#36;47 soon!)</p>
+            <button class="banner-button">Get Free Instant Access Here</button>        
         </div>
+      </div>
     </section>
 
 
@@ -74,14 +78,14 @@
 
   <section class="subscribe-buttons">
     <div class="container-fluid row justify-content-center">
-      <div class="subscribe-buttons-ctn col-4">
+      <div class="subscribe-buttons-ctn col-sm-4">
         <h4> Push Buttons Influence Podcast</h4>
         <div class="subscribe-buttons-logos row">
           <div class="col-6"><img class="img-fluid" src="img/itunes.jpg" alt="itunes-logo"></div>
           <div class="col-6"><img class="img-fluid" src="img/stitcher.jpg" alt="stitcher-logo"></div>
         </div>      
       </div>
-      <div class="subscribe-buttons-text-ctn col-4">
+      <div class="subscribe-buttons-text-ctn col-sm-4">
         <h5>Our top-rated show teaches you how to...</h5>
         <ul>
           <li>Effectively leverage the power of new media</li>
@@ -211,65 +215,81 @@
 
     
     <!-- SECTION 7 -->
-    <section class="popularepisodes col-md-12 col-sm-12">
+    <section class="sect-7">
       <div class="container">
-        <div class="col-sm-12">
-          <h3 class=" title-sect h3">Popular <span class="blue-text">Episodes</span></h3>
-        </div>
-        
-        <div class="row episode-cnt">
-          <div class="col-md-3 episode-img">
-            <img class="img-fluid" src="img/brunson.jpg" alt="">
-          </div>
-          <div class="col-md-9 episode">
-            <h4 class="episode-header">
-              <a class="episode-link" href="#">PBI 001: Russel Brunson - Proven Strategies For Generating Traffic And Sales</a>
-            </h4>
-            <p>Russel Brunson, internet marketer extraordinaire who is the author of Dot Corn Secrets and the creator of Click Funnels.</p>
-          </div>
-        </div>
+        <div class="row">
+          <div class="popularepisodes col-md-8">
+            <div class="col-md-12">
+              <h3 class=" title-sect h3">Popular <span class="blue-text">Episodes</span></h3>
+            </div>
+            
+            <div class="row episode-cnt">
+              <div class="col-md-3 episode-img">
+                <img class="img-fluid" src="img/brunson.jpg" alt="">
+              </div>
+              <div class="col-md-9 episode">
+                <h4 class="episode-header">
+                  <a class="episode-link" href="#">PBI 001: Russel Brunson - Proven Strategies For Generating Traffic And Sales</a>
+                </h4>
+                <p>Russel Brunson, internet marketer extraordinaire who is the author of Dot Corn Secrets and the creator of Click Funnels.</p>
+              </div>
+            </div>
 
-        <div class="row episode-cnt">
-          <div class="col-md-3 episode-img">
-            <img class="img-fluid" src="img/dumas.jpg" alt="">
-          </div>
-          <div class="col-md-9 episode">
-            <h4 class="episode-header">
-              <a class="episode-link" href="#">PBI 002: John Lee Dumas - Creating A Powrful Podcast</a>
-            </h4>
-            <p>John Lee Dumas - Creating A Powrful Podcast John Lee Dumas - Creating A Powrful Podcast John Lee Dumas - Creating A Powrful Podcast.</p>
-          </div>
-        </div>
+            <div class="row episode-cnt">
+              <div class="col-md-3 episode-img">
+                <img class="img-fluid" src="img/dumas.jpg" alt="">
+              </div>
+              <div class="col-md-9 episode">
+                <h4 class="episode-header">
+                  <a class="episode-link" href="#">PBI 002: John Lee Dumas - Creating A Powrful Podcast</a>
+                </h4>
+                <p>John Lee Dumas - Creating A Powrful Podcast John Lee Dumas - Creating A Powrful Podcast John Lee Dumas - Creating A Powrful Podcast.</p>
+              </div>
+            </div>
 
-        <div class="row episode-cnt">
-          <div class="col-md-3 episode-img">
-            <img class="img-fluid" src="img/patel.jpg" alt="">
-          </div>
-          <div class="col-md-9 episode">
-            <h4 class="episode-header">
-              <a class="episode-link" href="#">PBI 003: Internet Dynamics &amp; The Shift In Online Behavior With Neil Patel</a>
-            </h4>
-            <p>Internet Dynamics &amp; The Shift In Online Behavior With Neil Patel Internet Dynamics &amp; The Shift In Online Behavior With Neil Patel.</p>
-          </div>
-        </div>
+            <div class="row episode-cnt">
+              <div class="col-md-3 episode-img">
+                <img class="img-fluid" src="img/patel.jpg" alt="">
+              </div>
+              <div class="col-md-9 episode">
+                <h4 class="episode-header">
+                  <a class="episode-link" href="#">PBI 003: Internet Dynamics &amp; The Shift In Online Behavior With Neil Patel</a>
+                </h4>
+                <p>Internet Dynamics &amp; The Shift In Online Behavior With Neil Patel Internet Dynamics &amp; The Shift In Online Behavior With Neil Patel.</p>
+              </div>
+            </div>
 
-        <div class="row episode-cnt">
-          <div class="col-md-3 episode-img">
-            <img class="img-fluid" src="img/pushbutton.jpg" alt="">
+            <div class="row episode-cnt">
+              <div class="col-md-3 episode-img">
+                <img class="img-fluid" src="img/pushbutton.jpg" alt="">
+              </div>
+              <div class="col-md-9 episode">
+                <h4 class="episode-header">
+                  <a class="episode-link" href="#">PBI 00: What To Expect On Push Button Influence</a>
+                </h4>
+                <p>Alex Mandossian and Steve Olsher meet and greet the world's leading influencers as they candidly share closely-guarded strategies that maximize brand explosure, marketing reach and visibility by leveraging the power of new media.</p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-9 episode">
-            <h4 class="episode-header">
-              <a class="episode-link" href="#">PBI 00: What To Expect On Push Button Influence</a>
-            </h4>
-            <p>Alex Mandossian and Steve Olsher meet and greet the world's leading influencers as they candidly share closely-guarded strategies that maximize brand explosure, marketing reach and visibility by leveraging the power of new media.</p>
-          </div>
+
+          <!-- SECTION 8 - Social Media Widgets -->
+
+          <div class="sect-8 col-md-4">
+            <h5>
+              <strong>Find Us On <span class="blue-text">Facebook</span>
+              </strong>
+            </h5>
+            <div class="text-center">
+              <iframe class="fb-page" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpbinfluence&tabs=timeline&width=300px&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden"></iframe>
+              <div class="twitter-page">
+                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/pbinfluence" data-widget-id="903748540660420608">Твіти про #pbinfluence</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </div>
+            </div>
+          </div><!-- /SECTION 9 -->
         </div>
       </div>
     </section>
-
-
-
-    <section><h2>8</h2></section>
 
     <!-- SECTION 9 - How To Consume -->
 
@@ -277,7 +297,7 @@
       <div class="container consume">
         <h1 class="consume-header text-center">How to <span>listen</span></h1>
         <h4 class="text-center"><strong>Choose Your Option Below…</strong></h4>
-        <div class="consume-cnt text-center row">
+        <div class="consume-cnt row">
           <div class="consume-blab col-md-4">
             <div class="consume-cnt1">
               <img src="img/one.png" alt="one-img">
@@ -326,16 +346,18 @@
     <!-- SECTION 10 - Epilogue Footer -->
 
     <section class="sect-10">
-      <footer class="container footer-cnt row">
-        <div class="col-md-6">
-          <a href="#">
-            <img class="footer-logo img-fluid" src="img/pbi-logo.png" alt="pbi-logo">
-          </a>
-          <p class="footer-logo-cnt">Push Button Influence… where you can meet and greet the world’s leading influencers as they candidly share closely-guarded strategies that maximize brand exposure, marketing reach and visibility by leveraging the power of new media. Alex Mandossian and Steve Olsher bring you today’s most recognized icons of influence who have the power to create and move online communities to take action with the push of a few buttons!</p>
-        </div>
-        <div class="footer-btn text-center col-md-6">
-          <h2 class="footer-btn-header">Click This Button If You Want to Make Money With Us in 2016!</h2>
-          <a class="btn btn-lg btn-outline-info" href="#">Get JV Partnership Details</a>
+      <footer class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#">
+              <img class="footer-logo img-fluid" src="img/pbi-logo.png" alt="pbi-logo">
+            </a>
+            <p class="footer-logo-cnt">Push Button Influence… where you can meet and greet the world’s leading influencers as they candidly share closely-guarded strategies that maximize brand exposure, marketing reach and visibility by leveraging the power of new media. Alex Mandossian and Steve Olsher bring you today’s most recognized icons of influence who have the power to create and move online communities to take action with the push of a few buttons!</p>
+          </div>
+          <div class="footer-btn text-center col-md-6">
+            <h2 class="footer-btn-header">Click This Button If You Want to Make Money With Us in 2016!</h2>
+            <a class="btn btn-lg btn-outline-info" href="#">Get JV Partnership Details</a>
+          </div>
         </div>
       </footer>
     </section><!-- /SECTION 10 -->
