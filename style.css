@@ -142,7 +142,7 @@ div.subscribe-buttons-logos {
 }
 
 /*Section 7*/
-.popularepisodes {
+.sect-7 {
 	color: #191919;
 	padding: 55px 0;
 }
@@ -152,6 +152,16 @@ a.episode-link {
 .episode-cnt {
 	margin-bottom: 30px;
 }
+
+/*SECTION 8*/
+.fb-page {
+	padding: 20px 0px;
+}
+.twitter-page {
+	width: 300px;
+	display: inline-block;
+}
+
 
 /*SECTION 9*/ 
 
@@ -210,9 +220,6 @@ a.episode-link {
 	background-color: #0d0d0d;
 	color: #fff;
 	padding: 5% 0;
-}
-.footer-cnt {
-	margin: 0 auto;
 }
 .footer-logo {
 	margin-bottom: 30px;
