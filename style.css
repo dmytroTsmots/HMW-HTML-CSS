@@ -7,6 +7,19 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
+.logos-text-cnt{
+  margin-top: 15px;
+}
+.wrap-logos{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  padding: 10px 0;
+}
 /*SECTION 1*/
 header {
 	background-color: #fff;
@@ -77,14 +90,14 @@ a:hover{
 	margin: 0;
 	font-weight: bold;
 }
-.logos-item {
+/* .logos-item {
 	margin: 10px;
-}
+} */
 
 /*Section-4*/
 .subscribe-buttons{
 	background-color: #08b6e6;
-	padding: 30px 0 45px;
+	padding: 50px 0;
 	color: #fff;
 }
 .subscribe-buttons-ctn, .subscribe-buttons-text-ctn {
@@ -96,6 +109,7 @@ a:hover{
 }
 div.subscribe-buttons-logos {
 	margin: 0;
+	margin-top: 15px;
 }
 .subscribe-buttons-logos div {
 	padding-right:10px;
